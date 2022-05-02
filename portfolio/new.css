@@ -1,0 +1,136 @@
+.grid-container {
+  display: grid;
+  background-color: aquamarine;
+  grid-template: repeat(3, 1fr);
+  height: 100vh;
+}
+
+/* .grid-item {
+    background-color: rgb(242, 103, 10);
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+    
+} */
+
+.top-bar {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  height: 40px;
+  text-align: left;
+  line-height: 40px;
+}
+.name {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background: linear-gradient(pink, rgb(169, 150, 150));
+}
+/* .grid-item-5 {
+    background-color: rgb(242, 103, 10);
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+    visibility: hidden;
+    height: 0px;
+} */
+
+.one {
+  /* grid-column: 1/5;
+  grid-row: 1/50; */
+  /* font-size: 18px; */
+  display: inline-block;
+  width: 1000px;
+  height: 400px;
+}
+.two {
+  /* grid-column: 1/5;
+  grid-row: 50/100; */
+  display: inline-block;
+  width: 1000px;
+  height: 400px;
+}
+.three {
+  /* grid-column: 5/9;
+  grid-row: 1/33; */
+  position: relative;
+  bottom: 960px;
+  left: 1075px;
+  width: 390px;
+  height: 250px;
+  text-align: center;
+  font-size: 20px;
+}
+.four {
+  /* grid-column: 5/9;
+  grid-row: 33/66; */
+  width: 390px;
+  height: 320px;
+  left: 1075px;
+  bottom: 965px;
+  position: relative;
+}
+.five {
+  /* grid-column: 5/9;
+  grid-row: 66/100; */
+  width: 390px;
+  height: 160px;
+  left: 1075px;
+  position: relative;
+  bottom: 970px;
+  z-index: 1;
+  text-align: center;
+}
+#my-div {
+  background-color: rgb(169, 150, 150);
+  margin: 10px;
+  padding: 30px;
+}
+h1,
+h2 {
+  text-align: center;
+
+  text-decoration: underline;
+}
+
+#turkey {
+  width: 300px;
+  height: 300px;
+  float: right;
+
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+}
+
+.porsche {
+  width: 50%;
+  float: left;
+  height: 270px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+}
+
+.golf {
+  width: 50%;
+  float: left;
+  height: 270px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px;
+}
+
+.link {
+  color: white;
+  margin: 10px;
+}
+
+.bodys {
+  background-color: rgb(169, 150, 150);
+  display: block;
+  width: 1000px;
+  height: 1000px;
+}
+
+body {
+  background-color: brown;
+}
